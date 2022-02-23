@@ -1,0 +1,141 @@
+/* styling for specific city's air quality on homepage*/
+.city {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* styling for city's name */
+.city-name {
+    position: absolute;
+    top: 2.5rem;
+    font-weight: bolder;
+    font-size: 2rem;
+}
+
+/* styling for title "Air Quality */
+.air-quality {
+    position:absolute;
+    top: 6rem;
+    margin-left: -22.5rem;
+    font-weight: bold;
+    color: #6B6868;
+}
+
+/* styling quality index box */
+.quality-index-box {
+    width: 26.5rem;
+    height: 10rem;
+    background: #DEF1DD;
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    top: 7.5rem;
+    border: 10px solid #21A41E;
+    border-radius: 1rem;
+}
+
+/* styling for city's air quality in box */
+.quality {
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+/* styling for city's air quality index in box */
+.index {
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+/* styling for city's index information below box */
+.index-info {
+    position: absolute;
+    top: 19rem;
+    width: 28rem;
+    text-align: center;
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+
+/* styling for box containing health information */
+.health-information-box {
+    position:absolute;
+    top: 22rem;
+    border: 2px solid #C4C4C4;
+    padding: 0.5rem;
+    border-radius: 1rem;
+    width: 27rem;
+    height: 4.6rem;
+}
+
+/* styling for heading health information in box */
+.health-information {
+    font-weight: bold;
+    font-size: 1rem;
+    color: #6B6868;
+}
+
+/* styling for details of health information */
+.health-info-detail {
+    font-weight: bold;
+    font-size: .8rem;
+    color: #6B6868;
+}
+
+/* styling for see more link in health information box */
+.see-more {
+    position:absolute;
+    top: 4rem;
+    font-weight: bold;
+    font-size: .8rem;
+    color: #C4C4C4;
+    cursor: pointer;
+}
+
+/* styling for box containing primary pollutant information */
+.primary-pollutant-box {
+    position:absolute;
+    top: 28.5rem;
+    border: 2px solid #C4C4C4;
+    padding: 0.5rem;
+    border-radius: 1rem;
+    width: 27rem;
+    height: 8.5rem;
+}
+
+/* styling for heading primary pollutant in box */
+.primary-pollutant {
+    font-weight: bold;
+    font-size: 1rem;
+    color: #6B6868;
+}
+
+/* styling for primary pollutant information in box */
+.primary-pollutant-info {
+    font-weight: bold;
+    font-size: .8rem;
+    color: #6B6868;
+}
+
+/* styling for primary pollutant information details in box */
+.primary-pollutant-detail {
+    font-weight: bold;
+    font-size: .8rem;
+    color: #6B6868;
+    position:absolute;
+    top: 4.5rem;
+}
+
+/* styling for see more link in primary pollutant box */
+.see-more2 {
+    position:absolute;
+    top: 8rem;
+    font-weight: bold;
+    font-size: .8rem;
+    color: #C4C4C4;
+}

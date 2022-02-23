@@ -1,0 +1,123 @@
+/* styling for main app */
+.App {
+  background: white;
+  height: 100vh;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+}
+
+/* styling for header with title and search bar */
+.header {
+  justify-content: space-between;
+  height: 5rem;
+  width: 100%;
+  border-bottom: 2px solid #e5e5e5;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+/* styling for title "Airify" in header */
+.title {
+  font-weight: 900;
+  font-size: 2.5rem;
+  margin-left: 1.5rem;
+  margin-top: 1.6rem;
+  color: #ADCEFF;
+  font-style: italic;
+}
+
+/* styling for "search for a city" bar */
+.search-city {
+  position: absolute;
+  right: 0.5rem;
+  top: .8rem;
+}
+
+/* styling for search icon (magnify glass) */
+.search-icon {
+  color: #e5e5e5;
+  position: absolute;
+  right:11rem;
+  top: 1.4rem;
+}
+
+/* styling for the reminder about weekly report */
+.reminder-text {
+  position: relative;
+  top:1rem;
+  background: #c8ebff;
+  border-radius: 1rem;
+  padding: 1.5rem 1rem;
+  text-decoration: underline;
+  font-weight: bold;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+/* styling for the bottom navigation bar for icons */
+.bottom-bar {
+  height: 5rem;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  border-top: 2px solid #e5e5e5;
+  position: fixed;
+  bottom: 0;
+  justify-content: space-between;
+  background: white;
+}
+
+/* styling for bottom bar icons */
+.tips-icon {
+  margin-left: 1rem;
+  color: black;
+}
+.homepage-icon {
+  color: #ADCEFF;
+}
+.reports-icon {
+  margin-right: 1rem;
+  color: black;
+}
+
+/* styling for bottom bar navigation buttons */
+.tips-button {
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+.homepage-button {
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+.reports-button {
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+
+/* set media queries for mobile, tablet and desktop breakpoints*/
+html {
+  font-size: 14px;
+}
+@media only screen and (min-width: 480px) {
+  html {
+      font-size: 16px;
+  }
+}
+@media only screen and (min-width: 780px) {
+  html {
+      font-size: 18px;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  html {
+      font-size: 20px;
+  }
+}
