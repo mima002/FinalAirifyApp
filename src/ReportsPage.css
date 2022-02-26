@@ -1,0 +1,85 @@
+.report {
+  width: 100;
+  height: 100vh;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 6rem;
+}
+
+.todays-report-header {
+  font-weight: bold;
+  font-size: 1.5rem;
+  position: absolute;
+  top: 6rem;
+  margin-left: -19.5rem;
+}
+
+.todays-graph {
+  position: absolute;
+  width: 28rem;
+  height: 10rem;
+  top: 9rem;
+  border: 1px solid lightgray;
+}
+
+.condition {
+  position: absolute;
+  top: 20rem;
+  margin-left: -14rem;
+  font-weight: bold;
+}
+
+.average-condition {
+  position: absolute;
+  top: 21.5rem;
+  margin-left: -23rem;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.condition-details {
+  position: absolute;
+  top: 23.5rem;
+  width: 28.5rem;
+  font-size: small;
+}
+
+.weekly-report-header {
+  position: absolute;
+  top: 29rem;
+  margin-left: -18.5rem;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.weekly-graph {
+  position: absolute;
+  top: 32rem;
+  width: 28rem;
+  height: 10rem;
+  border: 1px solid lightgray;
+}
+
+.average-condition2 {
+  position: absolute;
+  top: 43rem;
+  margin-left: -14rem;
+  font-weight: bold;
+}
+
+.weekly-condition {
+  position: absolute;
+  top: 44.5rem;
+  margin-left: -25.5rem;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.condition-details2 {
+  position: absolute;
+  top: 46.5rem;
+  width: 28.5rem;
+  font-size: small;
+}

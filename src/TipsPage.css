@@ -1,0 +1,15 @@
+.tips {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* .image {
+    height: 30rem;
+    width: 30rem;
+    object-fit: contain;
+    background: url('https://grist.org/wp-content/uploads/2021/09/smog-india-bikers.jpg')
+} */
