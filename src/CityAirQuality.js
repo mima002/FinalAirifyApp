@@ -24,7 +24,6 @@ function CityAirQuality() {
           Air quality is satisfactory and poses little or no health risk.
         </div>
         <div className="see-more">
-          {/* make this a button later */}
           See More {">"}
         </div>
       </div>
@@ -40,7 +39,6 @@ function CityAirQuality() {
           particles.
         </div>
         <div className="see-more2">
-          {/* make this a button later */}
           See More {">"}
         </div>
       </div>

@@ -5,7 +5,6 @@
   display: flex;
   position: relative;
   flex-direction: column;
-  /* justify-content: center; */
   align-items: center;
 }
 
@@ -18,7 +17,6 @@
   align-items: center;
   position: relative;
   width: 100%;
-
   background: white;
 }
 
@@ -53,6 +51,7 @@
   top: 1rem;
   background: #c8ebff;
   border-radius: 1rem;
+  border: none;
   padding: 1.5rem 1rem;
   text-decoration: underline;
   font-weight: bold;

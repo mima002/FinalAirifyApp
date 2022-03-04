@@ -1,5 +1,5 @@
+/* styling for reports page */
 .report {
-  width: 100;
   height: 100vh;
   display: flex;
   position: relative;
@@ -8,6 +8,7 @@
   margin-bottom: 6rem;
 }
 
+/* styling for daily report header */
 .todays-report-header {
   font-weight: bold;
   font-size: 1.5rem;
@@ -16,22 +17,34 @@
   margin-left: -19.5rem;
 }
 
+/* styling for daily exposure graph position on page */
 .todays-graph {
   position: absolute;
   width: 28rem;
   height: 10rem;
   top: 9rem;
-  border: 1px solid lightgray;
 }
 
-.condition {
+/* styling for daily exposure graph, includes image url of graph created on FIGMA*/
+.graph-1 {
+  background: url("https://lh3.googleusercontent.com/W2SvVcBMmpzVmnh_aatxPdYJDtIRYCW0NNZdnm0NtJ-vGGkKQEp8a0RrbYmJz45isM24RFGthbCwEU3748XLZ24uHP-IrWMnidII2WAGGLuHNIv-MCIba55dfs-FWk4AE7BIbrL6=w2400");
+  width: 28rem;
+  height: 10rem;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  border: 0;
+}
+
+/* styling for text: Average air quality condition */
+.average-condition {
   position: absolute;
   top: 20rem;
-  margin-left: -14rem;
   font-weight: bold;
 }
 
-.average-condition {
+/* styling for average daily exposure rating: moderate */
+.daily-condition {
   position: absolute;
   top: 21.5rem;
   margin-left: -23rem;
@@ -39,6 +52,7 @@
   font-size: 1.2rem;
 }
 
+/* styling for average daily exposure rating details */
 .condition-details {
   position: absolute;
   top: 23.5rem;
@@ -46,6 +60,7 @@
   font-size: small;
 }
 
+/* styling for header: weekly report */
 .weekly-report-header {
   position: absolute;
   top: 29rem;
@@ -54,21 +69,33 @@
   font-size: 1.5rem;
 }
 
+/* styling for weekly exposure graph position on page */
 .weekly-graph {
   position: absolute;
   top: 32rem;
   width: 28rem;
   height: 10rem;
-  border: 1px solid lightgray;
 }
 
+/* styling for daily exposure graph, includes image url of graph created on FIGMA */
+.graph-2 {
+  background: url("https://lh3.googleusercontent.com/hI1rGeZ3blQLgSpRPl8vRP4qzu5ks6a9IDp_mhYS6ou8Wnyj4iado-dyCIp8Z6udg5WaLdhAV1xjSS_wr8ISDcrg40WnceX3Br84tMmj7jidlCJDV8NJDYJg89fw2Rq6HJYfB2Z4=w2400");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  border-color: white;
+  width: 28rem;
+  height: 10rem;
+}
+
+/* styling for text: Average air quality condition */
 .average-condition2 {
   position: absolute;
   top: 43rem;
-  margin-left: -14rem;
   font-weight: bold;
 }
 
+/* styling for average weekly exposure rating: good */
 .weekly-condition {
   position: absolute;
   top: 44.5rem;
@@ -77,6 +104,7 @@
   font-size: 1.2rem;
 }
 
+/* styling for average weekly exposure rating details */
 .condition-details2 {
   position: absolute;
   top: 46.5rem;
