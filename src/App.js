@@ -1,4 +1,4 @@
-import Homepage from './Homepage';
+import Homepage from "./Homepage";
 import ReportsPage from "./ReportsPage";
 import TipsPage from "./TipsPage";
 import { BrowserRouter, Routes, Route } from "react-router-dom";

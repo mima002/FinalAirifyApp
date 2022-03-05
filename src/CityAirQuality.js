@@ -9,7 +9,7 @@ function CityAirQuality() {
       <div className="city-name">Seattle</div>
       <div className="air-quality">Air Quality</div>
       <div className="quality-index-box">
-        <SentimentSatisfiedOutlinedIcon className="quality-icon"/>
+        <SentimentSatisfiedOutlinedIcon className="quality-icon" />
         <div className="quality">Good</div>
         <div className="index">41</div>
       </div>
@@ -23,9 +23,7 @@ function CityAirQuality() {
         <div className="health-info-detail">
           Air quality is satisfactory and poses little or no health risk.
         </div>
-        <div className="see-more">
-          See More {">"}
-        </div>
+        <div className="see-more">See More {">"}</div>
       </div>
       <div className="primary-pollutant-box">
         <div className="primary-pollutant">Primary Pollutant</div>
@@ -38,9 +36,7 @@ function CityAirQuality() {
           typically result from wildfires, smokestacks, bacteria, or small dust
           particles.
         </div>
-        <div className="see-more2">
-          See More {">"}
-        </div>
+        <div className="see-more2">See More {">"}</div>
       </div>
     </div>
   );
