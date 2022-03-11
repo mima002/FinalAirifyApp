@@ -1,70 +1,9 @@
-# Getting Started with Create React App
+Welcome to Airify, my final project for HCDE 438: Web Technologies course. 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This mobile application hopes to address the United Nations’ goal of sustainable cities and communities by paying special attention to air quality. Due to climate change, air pollution has worsened globally. Air pollution can cause cardiovascular and respiratory problems which the most vulnerable groups are children, the elderly, and pregnant women. Apple’s weather application currently tells the user the air quality, suggests health information, and identifies the primary pollutant. However, there is no way to track individual exposure to poor air quality. We also have very little control over our exposure. Thus, I want to design an application that tells the user about the air quality in their area, tracks exposure, and provides suggestions to reduce the risk of exposure to air pollution.
 
-## Available Scripts
+The homepage of the application helps the user monitor the air quality in their area. Users can monitor the air quality when they set their location on the application. They can also search for the air quality of other cities. This page displays the city's air quality index, condition, and additional health information and the primary pollutant in their air. 
 
-In the project directory, you can run:
+The reports page of the application is an air pollution exposure tracker that produces daily and weekly reports to the users. When traveling, the application will track the change in the air quality at different locations and show the user’s average exposure to air pollution for the day. After collecting the data every day, there will be options to receive daily and weekly reports for users’ overall exposure to polluted air displayed using line graphs.
 
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+The tips page of the application It will provide the users with suggestions and tips on reducing the risk of constant exposure to unhealthy air. Suggestions include turning on an air filter, wearing air filtration masks, or staying indoors.
